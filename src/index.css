@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image {
+  background-image: url(/src/assets/image\ 3.png);
+}
+
+@media only screen and (max-width: 900px) {
+  .font {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .small {
+    font-size: 3rem;
+  }
+  .fs {
+    font-size: 1.2rem;
+  }
+  .font {
+    font-size: 12px;
+  }
+  .image {
+    width: 2rem;
+    height: 2rem;
+  }
+  .button {
+    font-size: 12px;
+    padding: 0.3rem;
+  }
+  .box-size {
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .small {
+    font-size: 3rem;
+  }
+  .fs {
+    font-size: 1.2rem;
+  }
+  .font {
+    font-size: 10px;
+  }
+  .image {
+    width: 2rem;
+    height: 2rem;
+  }
+  .button {
+    font-size: 12px;
+    padding: 0.3rem;
+  }
+  .box-size {
+    height: 80px;
+  }
+}
