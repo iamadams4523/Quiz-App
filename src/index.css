@@ -22,10 +22,6 @@
   .font {
     font-size: 12px;
   }
-  .image {
-    width: 2rem;
-    height: 2rem;
-  }
   .button {
     font-size: 12px;
     padding: 0.3rem;
@@ -33,27 +29,50 @@
   .box-size {
     height: 80px;
   }
+  .image {
+    width: 80%;
+  }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 675px) {
   .small {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: 50px;
   }
   .fs {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .font {
     font-size: 10px;
   }
-  .image {
-    width: 2rem;
-    height: 2rem;
-  }
   .button {
     font-size: 12px;
     padding: 0.3rem;
   }
   .box-size {
     height: 80px;
+  }
+  .word-image {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .word {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .button-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+    margin-top: 3rem;
+  }
+  .image {
+    width: 75%;
   }
 }
